@@ -1,7 +1,11 @@
-package com.practice.kafkazookeeper.webchatting;
+package com.practice.kafkazookeeper.model;
 
 import java.io.Serializable;
 
+/**
+ * @Class : Message
+ * @Description : 메시지를 주고받을 때 사용하는 클래스
+ */
 public class Message implements Serializable {
     private String author;
     private String content;
