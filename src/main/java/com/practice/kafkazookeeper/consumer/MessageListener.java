@@ -32,7 +32,6 @@ public class MessageListener {
      */
     public void listen(Message message) {
         log.info("sending via kafka listener..");
-
         template.convertAndSend("/topic/group", message);
     }
 }
